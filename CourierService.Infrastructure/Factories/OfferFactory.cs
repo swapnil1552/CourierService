@@ -10,22 +10,18 @@ namespace CourierService.Infrastructure.Factories
 {
     internal class OfferFactory : IOfferFactory
     {
-        public IOffer GetOffer(string offerCode)
-        {
-            IOffer offer = null;
-            switch (offerCode)
-            {
-                case "OFR001":
-                    offer =  new OfferOFR001();
-                    break;
-                case "OFR002":
-                    offer =  new OfferOFR002();
-                    break;
-                case "OFR003":
-                    offer =  new OfferOFR003();
-                    break;
+        private readonly Dictionary<string, IOffer> _offers;
 
-            }
+        public OfferFactory(IEnumerable<IOffer> offers)
+        {
+            _offers = offers.ToDictionary(o => o.OfferCode, StringComparer.OrdinalIgnoreCase);
+        }
+        public IOffer? GetOffer(string offerCode)
+        {
+            if (string.IsNullOrWhiteSpace(offerCode))
+                return null;
+
+            _offers.TryGetValue(offerCode, out var offer);
 
             return offer;
         }

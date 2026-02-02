@@ -37,6 +37,8 @@ namespace CourierService.Infrastructure.DependencyInjection
             services.AddSingleton<IOffer, OfferOFR002>();
             services.AddSingleton<IOffer, OfferOFR003>();
 
+            services.AddSingleton<IOfferFactory, OfferFactory>();
+
             services.AddSingleton<CourierServiceProcessor>();
 
             services.AddSingleton<ConsoleInputService>();

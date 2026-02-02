@@ -12,6 +12,9 @@ namespace CourierService.Infrastructure.Offers
     public class OfferOFR001 : IOffer
     {
         private readonly int discountPercentage = 10;
+
+        public string OfferCode => "OFR001";
+
         public double CalculateDiscount(double deliveryCost)
         {
             return (deliveryCost * discountPercentage) / 100;
