@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{EEE74A1E-B518-442C-A1A9-57964D3F8EFF}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.Infrastructure/Factories/OfferFactory.cs" relfile=".Infrastructure/Factories/OfferFactory.cs" line="17" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.Infrastructure/Factories/OfferFactory.cs" relfile=".Infrastructure/Factories/OfferFactory.cs" line="21" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Domain/PackageTest.cs" relfile=".UnitTests/Domain/PackageTest.cs" line="29" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Application/Pricing/DiscountServiceTests.cs" relfile=".UnitTests/Application/Pricing/DiscountServiceTests.cs" line="22" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Application/Delivery/ShipmentBuilderTests.cs" relfile=".UnitTests/Application/Delivery/ShipmentBuilderTests.cs" line="21" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Application/CourierServiceProcessorTests.cs" relfile=".UnitTests/Application/CourierServiceProcessorTests.cs" line="109" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.Application/Services/CourierServiceProcessor.cs" relfile=".Application/Services/CourierServiceProcessor.cs" line="30" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.Infrastructure/Factories/OfferFactory.cs" relfile=".Infrastructure/Factories/OfferFactory.cs" line="21" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Application/Delivery/DeliverySchedulerTests.cs" relfile=".UnitTests/Application/Delivery/DeliverySchedulerTests.cs" line="20" column="1" />
+      <Breakpoint file="/Users/swapnildicholkar/Development/CourierService/CourierService/.UnitTests/Application/Delivery/DeliverySchedulerTests.cs" relfile=".UnitTests/Application/Delivery/DeliverySchedulerTests.cs" line="97" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../.nuget/packages/castle.core/5.2.1/readme.txt">
+    <Files>
+      <File FileName="../CourierService.Application/Interfaces/Offers/IOfferFactory.cs" Line="10" Column="6" IsPinned="True" />
+      <File FileName="../CourierService.Application/Services/Pricing/DiscountService.cs" />
+      <File FileName="../../../.nuget/packages/microsoft.net.test.sdk/18.0.1/build/netcoreapp2.0/Microsoft.NET.Test.Sdk.targets" />
+      <File FileName="../CourierService.Domain/Enities/Shipment.cs" />
+      <File FileName="../CourierService.Application/Interfaces/Offers/IOffer.cs" />
+      <File FileName="../CourierService.Application/Services/Delivery/ShipmentBuilder.cs" />
+      <File FileName="../CourierService.Application/Services/Delivery/DeliveryScheduler.cs" />
+      <File FileName="../CourierService.Application/Services/Pricing/DeliveryCostCalculator.cs" />
+      <File FileName="../CourierService.Infrastructure/Input/ConsoleInputService.cs" />
+      <File FileName="../CourierService.Application/Interfaces/Delivery/IDeliveryScheduler.cs" />
+      <File FileName="../CourierService.Application/Interfaces/Delivery/IShipmentBuilder.cs" />
+      <File FileName="../CourierService.Application/Interfaces/Pricing/IDeliveryCostCalculator.cs" />
+      <File FileName="../CourierService.Application/Interfaces/Pricing/IDiscountService.cs" />
+      <File FileName="../CourierService.Application/Services/CourierServiceProcessor.cs" />
+      <File FileName="../CourierService.Infrastructure/DependencyInjection/ServiceCollectionExtensions.cs" />
+      <File FileName="../CourierService.Infrastructure/Offers/OfferOFR001.cs" />
+      <File FileName="../CourierService.Infrastructure/Offers/OfferOFR002.cs" />
+      <File FileName="../CourierService.Infrastructure/Offers/OfferOFR003.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="../CourierService.Infrastructure/Factories/OfferFactory.cs" />
+      <File FileName="../../../.nuget/packages/castle.core/5.2.1/readme.txt" Line="10" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CourierService">
+            <Node name="CourierService.Application" expanded="True">
+              <Node name="Interfaces" expanded="True">
+                <Node name="Offers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CourierService.Test">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CourierService" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CourierService.KikiApp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

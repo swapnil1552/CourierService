@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CourierService.Infrastructure.Factories
 {
-    internal class OfferFactory : IOfferFactory
+    public class OfferFactory : IOfferFactory
     {
         private readonly Dictionary<string, IOffer> _offers;
 
